@@ -1,15 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noah | Go Backend Developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <link href="favicon.ico" rel="icon" type="image/png" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Noah | Software Developer</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
     <!-- Side Navigation Dots -->
     <div class="side-nav">
@@ -34,17 +38,16 @@
             <span class="nav-tooltip" data-en="Contact" data-ru="Контакты">Contact</span>
         </div>
     </div>
-
     <!-- Header -->
     <header>
         <nav>
             <div class="logo">Noah<span class="accent-dot">.</span></div>
             <ul class="nav-links">
-                <li><a href="#home" class="active" data-en="Home" data-ru="Главная">Home</a></li>
-                <li><a href="#about" data-en="About" data-ru="Обо мне">About</a></li>
-                <li><a href="#experience" data-en="Experience" data-ru="Опыт">Experience</a></li>
-                <li><a href="#projects" data-en="Projects" data-ru="Проекты">Projects</a></li>
-                <li><a href="#contact" data-en="Contact" data-ru="Контакты">Contact</a></li>
+                <li><a class="active" data-en="Home" data-ru="Главная" href="#home">Home</a></li>
+                <li><a data-en="About" data-ru="Обо мне" href="#about">About</a></li>
+                <li><a data-en="Experience" data-ru="Опыт" href="#experience">Experience</a></li>
+                <li><a data-en="Projects" data-ru="Проекты" href="#projects">Projects</a></li>
+                <li><a data-en="Contact" data-ru="Контакты" href="#contact">Contact</a></li>
             </ul>
             <div class="nav-controls">
                 <button class="lang-switcher" id="langSwitcher">
@@ -55,171 +58,202 @@
             </div>
         </nav>
     </header>
-
     <main>
         <!-- Hero Section -->
-        <section id="home" class="hero">
+        <section class="hero" id="home">
             <div class="hero-content fade-in">
-                <span class="badge" data-en="Available for new projects" data-ru="Доступен для новых проектов">Available for new projects</span>
-                <h1 class="glitch-text"><span data-en="Hey!, I am " data-ru="Привет! Я ">Hey!, I am </span><span class="highlight">Noah</span></h1>
-                <h2 data-en="Full-Snack / Go Backend Developer" data-ru="Full-Snack / Go Backend Разработчик">Full-Snack / Go Backend Developer</h2>
-                <p class="hero-description" data-en="3+ years of web development experience. Currently diving deep into Go and building modern web applications. Creator of Weather Flux open-source project. I'm 15 years old and passionate about coding." data-ru="Более 3 лет опыта веб-разработки. Сейчас углубленно изучаю Go и создаю современные веб-приложения. Создатель open-source проекта Weather Flux. Мне 15 лет, и я увлечен программированием.">3+ years of web development experience. Currently diving deep into Go and building modern web applications. Creator of Weather Flux open-source project. I'm 15 years old and passionate about coding.</p>
+                <span class="badge" data-en="Building and learning" data-ru="Разрабатываю и учусь">Building and
+                    learning</span>
+                <h1 class="glitch-text"><span data-en="Hey!, I am " data-ru="Привет! Я ">Hey!, I am </span><span
+                        class="highlight">Noah</span></h1>
+                <h2 data-en="Software Developer · Flutter / C++"
+                    data-ru="Разработчик ПО · Flutter / C++">Software Developer · Flutter / C++</h2>
+                <p class="hero-description"
+                    data-en="Software developer focused on Dart/Flutter, Linux, and a transition into modern C++. Creator of Weather Cloud and several technical tools. I enjoy building real products and understanding what happens under the hood."
+                    data-ru="Разработчик ПО: Dart/Flutter, Linux и переход в современный C++. Создал Weather Cloud и нескольких технических инструментов. Люблю делать реальные продукты и разбираться в том, что происходит под капотом.">
+                    Software developer focused on Dart/Flutter, Linux, and a transition into modern C++. Creator of
+                    Weather Cloud and several technical tools. I enjoy building real products and understanding what
+                    happens under the hood.</p>
                 <div class="hero-btns">
-                    <a href="#projects" class="btn primary" data-en="View My Work" data-ru="Мои работы">View My Work</a>
-                    <a href="#contact" class="btn secondary" data-en="Get in touch" data-ru="Связаться">Get in touch</a>
+                    <a class="btn primary" data-en="View My Work" data-ru="Мои работы" href="#projects">View My Work</a>
+                    <a class="btn secondary" data-en="Get in touch" data-ru="Связаться" href="#contact">Get in touch</a>
                 </div>
             </div>
             <div class="hero-stats fade-in-delay">
                 <div class="stat-item">
                     <span class="stat-number" data-target="3">0</span>
-                    <span class="stat-label" data-en="Years Experience" data-ru="Лет опыта">Years Experience</span>
+                    <span class="stat-label" data-en="Years Coding" data-ru="Лет в разработке">Years Coding</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-number" data-target="2">0</span>
-                    <span class="stat-label" data-en="Projects Completed" data-ru="Проектов завершено">Projects Completed</span>
+                    <span class="stat-label" data-en="Core Projects" data-ru="Основных проекта">Core Projects</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number" data-target="2">0</span>
-                    <span class="stat-label" data-en="Open Source" data-ru="Open Source">Open Source</span>
+                    <span class="stat-number" data-target="1">0</span>
+                    <span class="stat-label" data-en="Production App" data-ru="Продакшн-приложение">Production
+                        App</span>
                 </div>
             </div>
         </section>
-
         <!-- About Section -->
-        <section id="about" class="about">
+        <section class="about" id="about">
             <div class="section-header fade-in">
                 <span class="section-subtitle" data-en="About Me" data-ru="Обо мне">About Me</span>
                 <h3 data-en="Get to know me" data-ru="Узнай меня ближе">Get to know me</h3>
             </div>
             <div class="about-container">
                 <div class="about-content fade-in">
-                    <div class="age-badge" data-en="15 years old · Born on February 21" data-ru="15 лет · Родился 21 февраля">15 years old · Born on February 21</div>
-                    <p class="about-text" data-en="Hi! I'm Noah, a developer with 3+ years of experience in web development. My journey started with Django and HTML/CSS, and now I'm fully focused on learning Go and building modern web applications." data-ru="Привет! Я Ноа, разработчик с более чем 3-летним опытом в веб-разработке. Мой путь начался с Django и HTML/CSS, а сейчас я полностью сосредоточен на изучении Go и создании современных веб-приложений.">Hi! I'm Noah, a developer with 3+ years of experience in web development. My journey started with Django and HTML/CSS, and now I'm fully focused on learning Go and building modern web applications.</p>
-                    <p class="about-text" data-en="My main project — Weather Flux, a PWA weather site using OpenWeatherAPI that's actively evolving and modernizing. I'm also working on CLI tools in Go for website analysis. Despite my age, I've already completed several successful projects and continue to grow every day." data-ru="Мой главный проект — Weather Flux, PWA сайт погоды с использованием OpenWeatherAPI, который активно развивается и модернизируется. Также работаю над CLI инструментами на Go для анализа сайтов. Несмотря на возраст, у меня уже есть несколько успешных проектов, и я продолжаю расти каждый день.">My main project — <span class="highlight-text">Weather Flux</span>, a PWA weather site using OpenWeatherAPI that's actively evolving and modernizing. I'm also working on CLI tools in Go for website analysis. Despite my age, I've already completed several successful projects and continue to grow every day.</p>
-                    
+                    <div class="age-badge" data-en="Independent developer · Saint Petersburg"
+                        data-ru="Самостоятельный разработчик · Санкт-Петербург">Independent developer · Saint Petersburg
+                    </div>
+                    <p class="about-text"
+                        data-en="Hi! I'm Noah. I started with web development and gradually moved toward software engineering: first into Dart and Flutter, then deeper into Linux and C++. Today I'm interested in systems, networking, tooling, and building products that are actually useful."
+                        data-ru="Привет! Я Ноа. Я начинал с веб-разработки и постепенно перешёл к разработке ПО: сначала к Dart и Flutter, затем глубже в Linux и C++. Сейчас меня особенно интересуют системы, сети, инструменты и создание действительно полезных продуктов.">
+                        Hi! I'm Noah. I started with web development and gradually moved toward software engineering:
+                        first into Dart and Flutter, then deeper into Linux and C++. Today I'm interested in systems,
+                        networking, tooling, and building products that are actually useful.</p>
+                    <p class="about-text"
+                        data-en="My main project is Weather Cloud, a Flutter weather app with local caching and in-app updates delivered through GitHub Releases. I'm also building technical utilities such as a URL safety checker and using them to deepen my understanding of networking, HTTP, TLS, and native development."
+                        data-ru="Мой главный проект — Weather Cloud, приложение погоды на Flutter с локальным кешированием и обновлениями прямо из приложения через GitHub Releases. Также я создаю технические утилиты вроде URL Safety Checker, углубляя знания сетей, HTTP, TLS и нативной разработки.">
+                        My main project is <span class="highlight-text">Weather Cloud</span>, a Flutter weather app with
+                        local caching and in-app updates delivered through GitHub Releases. I'm also building technical
+                        utilities such as a URL safety checker and using them to deepen my understanding of networking,
+                        HTTP, TLS, and native development.</p>
                     <div class="about-skills">
-                        <span class="skill-tag">Go</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Django</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">PWA</span>
-                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Linux</span>
                         <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">HTTP / APIs</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Networking</span>
                     </div>
                 </div>
                 <div class="about-image">
-                    <img src="about-photo.jpg" alt="Noah - Go Developer" class="about-photo">
+                    <img alt="Noah - Go Developer" class="about-photo" src="about-photo.jpg" />
                 </div>
             </div>
         </section>
-
         <!-- Experience Section -->
-        <section id="experience" class="experience">
+        <section class="experience" id="experience">
             <div class="section-header fade-in">
                 <span class="section-subtitle" data-en="Experience" data-ru="Опыт">Experience</span>
                 <h3 data-en="My journey in tech" data-ru="Мой путь в технологиях">My journey in tech</h3>
             </div>
-            
             <div class="timeline">
                 <div class="timeline-item slide-in-left">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">2026 - Present</div>
                     <div class="timeline-content">
-                        <h4 data-en="Go Developer (Learning Journey)" data-ru="Go Разработчик (Обучение)">Go Developer (Learning Journey)</h4>
-                        <p class="timeline-company" data-en="Self-taught · Personal Projects" data-ru="Самоучка · Личные проекты">Self-taught · Personal Projects</p>
-                        <p class="timeline-description" data-en="Actively learning Go, building CLI tools, and working on web projects. Weather Flux website is being rewritten with Go best practices. Studying concurrency, goroutines, and microservice architecture." data-ru="Активно изучаю Go, создаю CLI инструменты и работаю над веб-проектами. Сайт Weather Flux переписывается с использованием лучших практик Go. Изучаю конкурентность, горутины и микросервисную архитектуру.">Actively learning Go, building CLI tools, and working on web projects. Weather Flux website is being rewritten with Go best practices. Studying concurrency, goroutines, and microservice architecture.</p>
+                        <h4 data-en="C++ / Systems Learning Journey" data-ru="Изучение C++ и системной разработки">C++ /
+                            Systems Learning Journey</h4>
+                        <p class="timeline-company" data-en="Self-taught · Personal Projects"
+                            data-ru="Самоучка · Личные проекты">Self-taught · Personal Projects</p>
+                        <p class="timeline-description"
+                            data-en="Moving from higher-level application development into C++ and systems programming. Studying memory, object lifetime, STL, networking, Linux tooling, build systems, and the fundamentals behind modern software."
+                            data-ru="Перехожу от прикладной разработки к C++ и системному программированию. Изучаю память, время жизни объектов, STL, сети, Linux-инструменты, системы сборки и фундаментальные принципы современной разработки.">
+                            Moving from higher-level application development into C++ and systems programming. Studying
+                            memory, object lifetime, STL, networking, Linux tooling, build systems, and the fundamentals
+                            behind modern software.</p>
                     </div>
                 </div>
-
                 <div class="timeline-item slide-in-left">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">2025 - Present</div>
                     <div class="timeline-content">
-                        <h4 data-en="Creator of Weather Flux" data-ru="Создатель Weather Flux">Creator of Weather Flux</h4>
-                        <p class="timeline-company" data-en="Open Source Project" data-ru="Open Source проект">Open Source Project</p>
-                        <p class="timeline-description" data-en="Developing a PWA weather site with OpenWeatherAPI. The project is actively modernized, with PWA support added and performance improvements. The site is in beta but fully functional." data-ru="Разрабатываю PWA сайт погоды с OpenWeatherAPI. Проект активно модернизируется, добавлена поддержка PWA и улучшена производительность. Сайт в бета-версии, но полностью функционален.">Developing a PWA weather site with OpenWeatherAPI. The project is actively modernized, with PWA support added and performance improvements. The site is in beta but fully functional.</p>
+                        <h4 data-en="Creator of Weather Cloud" data-ru="Создатель Weather Cloud">Creator of Weather
+                            Cloud</h4>
+                        <p class="timeline-company" data-en="Open Source Project" data-ru="Open Source проект">Open
+                            Source Project</p>
+                        <p class="timeline-description"
+                            data-en="Building Weather Cloud as a production-focused Flutter weather app. The project has a redesigned architecture and UI, local caching, provider fallbacks, and an in-app GitHub Releases update flow. The app is designed as a real product rather than a demo."
+                            data-ru="Разрабатываю Weather Cloud как полноценное Flutter-приложение погоды. Проект получил новую архитектуру и UI, локальное кеширование, резервные источники данных и систему обновлений прямо из приложения через GitHub Releases. Это реальный продукт, а не демонстрационный проект.">
+                            Building Weather Cloud as a production-focused Flutter weather app. The project has a
+                            redesigned architecture and UI, local caching, provider fallbacks, and an in-app GitHub
+                            Releases update flow. The app is designed as a real product rather than a demo.</p>
                     </div>
                 </div>
-
                 <div class="timeline-item slide-in-left">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">2023 - Present</div>
                     <div class="timeline-content">
                         <h4 data-en="Web Developer" data-ru="Веб-разработчик">Web Developer</h4>
                         <p class="timeline-company" data-en="Pet Projects" data-ru="Pet проекты">Pet Projects</p>
-                        <p class="timeline-description" data-en="Started with Django and frontend development. Created several successful web applications, learned databases and architecture. Gained experience in SQL, JavaScript, and modern web technologies." data-ru="Начинал с Django и фронтенд разработки. Создал несколько успешных веб-приложений, изучил базы данных и архитектуру. Получил опыт в SQL, JavaScript и современных веб-технологиях.">Started with Django and frontend development. Created several successful web applications, learned databases and architecture. Gained experience in SQL, JavaScript, and modern web technologies.</p>
+                        <p class="timeline-description"
+                            data-en="Started with web development, HTML/CSS, and backend experiments. This stage built the foundation for the larger software projects I work on today."
+                            data-ru="Начинал с веб-разработки, HTML/CSS и экспериментов с backend. Этот этап стал фундаментом для более крупных программных проектов, которыми я занимаюсь сейчас.">
+                            Started with web development, HTML/CSS, and backend experiments. This stage built the
+                            foundation for the larger software projects I work on today.</p>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- Projects Section -->
-        <section id="projects" class="projects">
+        <section class="projects" id="projects">
             <div class="section-header fade-in">
                 <span class="section-subtitle" data-en="Projects" data-ru="Проекты">Projects</span>
                 <h3 data-en="Things I've built" data-ru="Что я создал">Things I've built</h3>
             </div>
-            
             <div class="project-grid">
                 <!-- Weather Flux -->
                 <div class="project-card fade-in">
                     <div class="project-img">
-                        <img src="weather-flux.jpg" alt="Weather Flux Project" class="project-img-file">
+                        <img alt="Weather Cloud Project" class="project-img-file" src="weather-flux.jpg" />
                         <div class="project-overlay">
                             <span class="project-year">2025 - Present</span>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h4>Weather Flux</h4>
-                        <p data-en="PWA weather site using OpenWeatherAPI. Fully functional project with offline mode support. Constantly being modernized and improved. Open source on GitHub." data-ru="PWA сайт погоды с использованием OpenWeatherAPI. Полностью функциональный проект с поддержкой офлайн-режима. Постоянно модернизируется и улучшается. Open source на GitHub.">PWA weather site using OpenWeatherAPI. Fully functional project with offline mode support. Constantly being modernized and improved. Open source on GitHub.</p>
-                        <div class="tags">
-                            <span>HTML5</span>
-                            <span>CSS3</span>
-                            <span>JavaScript</span>
-                            <span>PWA</span>
-                            <span>OpenWeatherAPI</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://weatherovercast.github.io/index.html" target="_blank" class="project-link" data-en="Live Demo →" data-ru="Демо →">Live Demo →</a>
-                            <a href="https://github.com/NoahDeFlux" target="_blank" class="project-link" style="margin-left: 1rem;" data-en="GitHub →" data-ru="GitHub →">GitHub →</a>
-                        </div>
+                        <h4>Weather Cloud</h4>
+                        <p data-en="Production-focused Flutter weather app with local caching, provider fallbacks, animated weather UI, and in-app updates through GitHub Releases. Built as an evolving real-world product."
+                            data-ru="Полноценное Flutter-приложение погоды с локальным кешированием, резервными источниками данных, анимированным интерфейсом и обновлениями прямо из приложения через GitHub Releases. Проект развивается как реальный продукт.">
+                            Production-focused Flutter weather app with local caching, provider fallbacks, animated
+                            weather UI, and in-app updates through GitHub Releases. Built as an evolving real-world
+                            product.</p>
+                        <div class="tags"><span>Dart</span><span>Flutter</span><span>REST APIs</span><span>GitHub
+                                Releases</span></div>
+                        <div class="project-links"><a class="project-link" data-en="GitHub →" data-ru="GitHub →"
+                                href="https://github.com/thatsmenoah/weatherOM" target="_blank">GitHub →</a></div>
                     </div>
                 </div>
-
                 <!-- Site Analysis Tool -->
                 <div class="project-card fade-in">
                     <div class="project-img">
-                        <img src="cli-tool.jpg" alt="Site Analysis CLI Tool" class="project-img-file">
+                        <img alt="Site Analysis CLI Tool" class="project-img-file" src="cli-tool.jpg" />
                         <div class="project-overlay">
                             <span class="project-year">2026</span>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h4 data-en="Site Analysis Tool" data-ru="Инструмент анализа сайтов">Site Analysis Tool</h4>
-                        <p data-en="Experimental CLI tool in Go for website search and analysis. Project for deep learning of Go capabilities, networking, and data parsing." data-ru="Экспериментальный CLI инструмент на Go для поиска и анализа сайтов. Проект для глубокого изучения возможностей Go, сетевого взаимодействия и парсинга данных.">Experimental CLI tool in Go for website search and analysis. Project for deep learning of Go capabilities, networking, and data parsing.</p>
-                        <div class="tags">
-                            <span>Go</span>
-                            <span>CLI</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/WeatherOvercast/cli-tool" target="_blank" class="project-link" data-en="GitHub →" data-ru="GitHub →">GitHub →</a>
-                        </div>
+                        <h4 data-en="URL Safety Checker" data-ru="URL Safety Checker">URL Safety Checker</h4>
+                        <p data-en="C++ utility for inspecting URLs through HTTP/TLS checks, redirect analysis, certificate inspection, and heuristic security warnings. Built as a technical learning project around Windows networking APIs."
+                            data-ru="Утилита на C++ для проверки URL: HTTP/TLS, цепочки редиректов, сертификатов и эвристических предупреждений. Технический учебный проект вокруг сетевых API Windows.">
+                            C++ utility for inspecting URLs through HTTP/TLS checks, redirect analysis, certificate
+                            inspection, and heuristic security warnings. Built as a technical learning project around
+                            Windows networking APIs.</p>
+                        <div class="tags"><span>C++</span><span>WinHTTP</span><span>TLS</span><span>CLI</span></div>
+                        <div class="project-links"><a class="project-link" data-en="GitHub →" data-ru="GitHub →"
+                                href="https://github.com/thatsmenoah" target="_blank">GitHub →</a></div>
                     </div>
                 </div>
-
                 <!-- Personal Portfolio Website -->
                 <div class="project-card fade-in">
                     <div class="project-img">
-                        <img src="django-dashboard.jpg" alt="Personal Portfolio Website" class="project-img-file">
+                        <img alt="Personal Portfolio Website" class="project-img-file" src="django-dashboard.jpg" />
                         <div class="project-overlay">
                             <span class="project-year">2026</span>
                         </div>
                     </div>
                     <div class="project-info">
-                        <h4 data-en="Personal Portfolio Website" data-ru="Личный сайт-портфолио">Personal Portfolio Website</h4>
-                        <p data-en="Modern, responsive portfolio website built with pure HTML, CSS, and JavaScript. Features smooth animations, interactive UI elements, and optimized performance. This very site you're browsing!" data-ru="Современный, адаптивный сайт-портфолио, созданный на чистом HTML, CSS и JavaScript. Плавные анимации, интерактивные элементы и оптимизированная производительность. Этот самый сайт, на котором вы находитесь!">Modern, responsive portfolio website built with pure HTML, CSS, and JavaScript. Features smooth animations, interactive UI elements, and optimized performance. This very site you're browsing!</p>
+                        <h4 data-en="Personal Portfolio Website" data-ru="Личный сайт-портфолио">Personal Portfolio
+                            Website</h4>
+                        <p data-en="This portfolio is a small standalone project built with HTML, CSS, and JavaScript. It is intentionally lightweight and serves as a place to present current projects and experiments."
+                            data-ru="Этот сайт-портфолио — небольшой самостоятельный проект на HTML, CSS и JavaScript. Он намеренно остаётся лёгким и служит местом для презентации текущих проектов и экспериментов.">
+                            This portfolio is a small standalone project built with HTML, CSS, and JavaScript. It is
+                            intentionally lightweight and serves as a place to present current projects and experiments.
+                        </p>
                         <div class="tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -228,108 +262,96 @@
                             <span>Animations</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link" data-en="Live Demo →" data-ru="Демо →">Live Demo →</a>
-                            <a href="https://github.com/NoahDeFlux" target="_blank" class="project-link" style="margin-left: 1rem;" data-en="GitHub →" data-ru="GitHub →">GitHub →</a>
+                            <a class="project-link" data-en="GitHub →" data-ru="GitHub →"
+                                href="https://github.com/thatsmenoah/thatsmenoah.github.io" style="margin-left: 1rem;" target="_blank">GitHub
+                                →</a>
                         </div>
                     </div>
                 </div>
             </div>
-            
             <div class="projects-more fade-in">
-                <a href="https://github.com/NoahDeFlux" target="_blank" class="btn secondary" data-en="View all on GitHub" data-ru="Все проекты на GitHub">View all on GitHub</a>
+                <a class="btn secondary" data-en="View all on GitHub" data-ru="Все проекты на GitHub"
+                    href="https://github.com/thatsmenoah" target="_blank">View all on GitHub</a>
             </div>
         </section>
     </main>
-
-<!-- Footer / Contact Section -->
-<footer id="contact">
-    <div class="footer-top">
-        <div class="section-header fade-in">
-            <span class="section-subtitle" data-en="Contact" data-ru="Контакты">Contact</span>
-            <h3 data-en="Let's work together" data-ru="Давайте работать вместе">Let's work together</h3>
-        </div>
-        
-        <div class="footer-container">
-            <div class="footer-info fade-in">
-                <div class="badge" data-en="Together we can do more!" data-ru="Вместе мы можем больше!">Together we can do more!</div>
-                <p class="footer-description" data-en="I'm always open to new opportunities and collaborations in Go development. Whether you have a project in mind or just want to chat about tech, feel free to reach out." data-ru="Я всегда открыт к новым возможностям и сотрудничеству в разработке на Go. Если у вас есть проект или просто хотите поболтать о технологиях, смело пишите.">I'm always open to new opportunities and collaborations in Go development. Whether you have a project in mind or just want to chat about tech, feel free to reach out.</p>
-                
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <span class="contact-label" data-en="Email:" data-ru="Почта:">Email:</span>
-                        <a href="mailto:noahdeflux8555@gmail.com">noahdeflux8555@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label" data-en="Location:" data-ru="Локация:">Location:</span>
-                        <span data-en="Saint Petersburg, MSK (UTC+3)" data-ru="Санкт-Петербург, МСК (UTC+3)">Saint Petersburg, MSK (UTC+3)</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-label" data-en="Preferred:" data-ru="Telegram:">Preferred:</span>
-                        <span>@wptf80x</span>
-                    </div>
-                    <div class="contact-item">
-                        <span data-en="Status:" data-ru="Статус:">Status:</span>
-                        <span data-en="Looking for snacks & code" data-ru="В поиске снеков и кода">Looking for snacks & code</span>
-                    </div>
-                </div>
-                
-                <div class="social-links">
-                    <a href="https://github.com/NoahDeFlux" target="_blank" class="social-link">GitHub</a>
-                    <a href="https://t.me/wptf80x" target="_blank" class="social-link">Telegram</a>
-                    <a href="https://t.me/TakenCat" target="_blank" class="social-link" data-en="Telegram Channel" data-ru="Telegram Канал">Telegram Channel</a>
-                </div>
+    <!-- Footer / Contact Section -->
+    <footer id="contact">
+        <div class="footer-top">
+            <div class="section-header fade-in">
+                <span class="section-subtitle" data-en="Contact" data-ru="Контакты">Contact</span>
+                <h3 data-en="Let's work together" data-ru="Давайте работать вместе">Let's work together</h3>
             </div>
+            <div class="footer-container">
+                <div class="footer-info fade-in">
+                    <div class="badge" data-en="Together we can do more!" data-ru="Вместе мы можем больше!">Together we
+                        can do more!</div>
+                    <p class="footer-description"
+                        data-en="Right now I'm focused on education and building strong engineering fundamentals. I'm open to thoughtful technical conversations and collaboration around software projects."
+                        data-ru="Сейчас я сосредоточен на образовании и укреплении инженерной базы. Открыт к содержательным техническим разговорам и совместной работе над программными проектами.">
+                        Right now I'm focused on education and building strong engineering fundamentals. I'm open to
+                        thoughtful technical conversations and collaboration around software projects.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label" data-en="Email:" data-ru="Почта:">Email:</span>
+                            <a href="mailto:noahdeflux8555@gmail.com">noahdeflux8555@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label" data-en="Location:" data-ru="Локация:">Location:</span>
+                            <span data-en="Saint Petersburg, MSK (UTC+3)" data-ru="Санкт-Петербург, МСК (UTC+3)">Saint
+                                Petersburg, MSK (UTC+3)</span>
+                        </div>
 
-            <!-- Секция с ссылками на проекты и ресурсы -->
-            <div class="resources-grid fade-in">
-                <div class="resource-card">
-                    <h4 data-en="Open Source" data-ru="Open Source">Open Source</h4>
-                    <div class="resource-links">
-                        <a href="https://github.com/NoahDeFlux/weather-flux" target="_blank">Weather Flux</a>
-                        <a href="https://github.com/NoahDeFlux/cli-tools" target="_blank">CLI Tools</a>
-                        <a href="https://github.com/NoahDeFlux/portfolio" target="_blank">Portfolio</a>
+                        <div class="contact-item">
+                            <span data-en="Status:" data-ru="Статус:">Status:</span>
+                            <span data-en="Looking for snacks &amp; code" data-ru="В поиске снеков и кода">Looking for
+                                snacks &amp; code</span>
+                        </div>
                     </div>
+                    <div class="social-links"><a class="social-link" href="https://github.com/thatsmenoah"
+                            target="_blank">GitHub</a></div>
                 </div>
-                
-                <div class="resource-card">
-                    <h4 data-en="Quick Links" data-ru="Быстрые ссылки">Quick Links</h4>
-                    <div class="resource-links">
-                        <a href="#home" data-en="Home" data-ru="Главная">Home</a>
-                        <a href="#about" data-en="About" data-ru="Обо мне">About</a>
-                        <a href="#experience" data-en="Experience" data-ru="Опыт">Experience</a>
-                        <a href="#projects" data-en="Projects" data-ru="Проекты">Projects</a>
+                <!-- Секция с ссылками на проекты и ресурсы -->
+                <div class="resources-grid fade-in">
+                    <div class="resource-card">
+                        <h4 data-en="Open Source" data-ru="Open Source">Open Source</h4>
+                        <div class="resource-links"><a href="https://github.com/thatsmenoah/weatherOM" target="_blank">Weather
+                                Cloud</a><a href="https://github.com/thatsmenoah/URLcheck" target="_blank">URL Safety
+                                Checker</a><a href="" target="_blank">Portfolio</a></div>
                     </div>
-                </div>
-                
-                <div class="resource-card">
-                    <h4 data-en="Tech Stack" data-ru="Технологии">Tech Stack</h4>
-                    <div class="resource-links">
-                        <span>Go</span>
-                        <span>Node.js</span>
-                        <span>Django</span>
-                        <span>JavaScript</span>
+                    <div class="resource-card">
+                        <h4 data-en="Quick Links" data-ru="Быстрые ссылки">Quick Links</h4>
+                        <div class="resource-links">
+                            <a data-en="Home" data-ru="Главная" href="#home">Home</a>
+                            <a data-en="About" data-ru="Обо мне" href="#about">About</a>
+                            <a data-en="Experience" data-ru="Опыт" href="#experience">Experience</a>
+                            <a data-en="Projects" data-ru="Проекты" href="#projects">Projects</a>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="resource-card">
-                    <h4 data-en="Availability" data-ru="Доступность">Availability</h4>
-                    <div class="resource-links">
-                        <span class="availability-status"></span>
-                        <span data-en="Open for work" data-ru="Открыт к предложениям">Open for work</span>
-                        <span data-en="Part-time / Full-time" data-ru="Частичная / Полная занятость">Part-time / Full-time</span>
-                        <span data-en="Remote only" data-ru="Только удаленно">Remote only</span>
+                    <div class="resource-card">
+                        <h4 data-en="Tech Stack" data-ru="Технологии">Tech Stack</h4>
+                        <div class="resource-links">
+                            <span>Dart</span><span>Flutter</span><span>C++</span><span>Linux</span></div>
+                    </div>
+                    <div class="resource-card">
+                        <h4 data-en="Current Focus" data-ru="Текущий фокус">Current Focus</h4>
+                        <div class="resource-links"><span class="availability-status"></span><span
+                                data-en="Education &amp; personal projects"
+                                data-ru="Образование и личные проекты">Education &amp; personal projects</span><span
+                                data-en="C++ / systems / Flutter" data-ru="C++ / systems / Flutter">C++ / systems /
+                                Flutter</span><span data-en="Not actively seeking work"
+                                data-ru="Сейчас работу не ищу">Not actively seeking work</span></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div class="footer-bottom fade-in">
-        <p>© 2026 Noah. All rights reserved.</p>
-        <p data-en="Designed with focus on performance" data-ru="Сделано с фокусом на производительность">Designed with focus on performance</p>
-    </div>
-</footer>
-
+        <div class="footer-bottom fade-in">
+            <p>© 2026 Noah. All rights reserved.</p>
+            <p data-en="Designed with focus on performance" data-ru="Сделано с фокусом на производительность">Designed
+                with focus on performance</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
